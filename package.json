@@ -1,0 +1,24 @@
+{
+  "name": "conversational-intelligence-microservice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A microservice for conversational intelligence using Fastify and TypeScript.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@google/genai": "^0.15.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.5.3"
+  }
+}

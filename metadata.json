@@ -1,0 +1,5 @@
+{
+  "name": "Conversational Intelligence Microservice",
+  "description": "A microservice for conversational intelligence using Fastify and TypeScript.",
+  "requestFramePermissions": []
+}
